@@ -1,0 +1,51 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ba83e621-4a40-4e4a-9877-ef8a6822b176": {
+      "ProjectGuid": "ba83e621-4a40-4e4a-9877-ef8a6822b176",
+      "DisplayName": "MB.Domain",
+      "ColorIndex": 0
+    },
+    "9af7b466-0996-4f5c-ac5b-ffce6579a493": {
+      "ProjectGuid": "9af7b466-0996-4f5c-ac5b-ffce6579a493",
+      "DisplayName": "MB.Application",
+      "ColorIndex": 1
+    },
+    "5551f587-6179-47fe-ab3a-5eaa56fdd8c5": {
+      "ProjectGuid": "5551f587-6179-47fe-ab3a-5eaa56fdd8c5",
+      "DisplayName": "MB.Application.Contracts",
+      "ColorIndex": 2
+    },
+    "95f54449-568f-4188-b310-a95903702d01": {
+      "ProjectGuid": "95f54449-568f-4188-b310-a95903702d01",
+      "DisplayName": "MB.Aplication.Contracts",
+      "ColorIndex": 3
+    },
+    "37835713-d699-4364-ad27-a0511afda9cb": {
+      "ProjectGuid": "37835713-d699-4364-ad27-a0511afda9cb",
+      "DisplayName": "MB.Infrastructure",
+      "ColorIndex": 4
+    },
+    "bfc6541a-1f37-4141-b524-719fc1cff71d": {
+      "ProjectGuid": "bfc6541a-1f37-4141-b524-719fc1cff71d",
+      "DisplayName": "MB.Presentation.MVCCore",
+      "ColorIndex": 5
+    },
+    "a7111031-6f7c-4c46-b06d-21e772df5457": {
+      "ProjectGuid": "a7111031-6f7c-4c46-b06d-21e772df5457",
+      "DisplayName": "MB.Presentation.MVCCore",
+      "ColorIndex": 6
+    },
+    "419e66a2-e4d1-4f8a-aaff-d13d0936eb34": {
+      "ProjectGuid": "419e66a2-e4d1-4f8a-aaff-d13d0936eb34",
+      "DisplayName": "MB.Presentation.MVCCore",
+      "ColorIndex": 7
+    },
+    "dc693b7d-4c17-4d3e-bff5-cb4b5ceceaf9": {
+      "ProjectGuid": "dc693b7d-4c17-4d3e-bff5-cb4b5ceceaf9",
+      "DisplayName": "MB.Infrastructure.core",
+      "ColorIndex": 8
+    }
+  },
+  "NextColorIndex": 9
+}
