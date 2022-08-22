@@ -1,4 +1,4 @@
-﻿using MB.Domain.ArticleCategory;
+﻿using MB.Domain.ArticleCategoryAgg;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
 using System;
@@ -18,6 +18,7 @@ namespace MB.Infrastructure.Mapping
             builder.Property(x => x.Title);
             builder.Property(x => x.CreationDate);
             builder.Property(x => x.IsDeleted);
+            builder.HasMany(x => x.articles).WithOne(x => x.ArticleCategory).HasForeignKey(x => x.ArticleCategoryId);
 
         }
     }

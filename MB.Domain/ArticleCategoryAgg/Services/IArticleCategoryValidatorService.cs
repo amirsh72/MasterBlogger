@@ -3,7 +3,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MB.Domain.ArticleCategory.Services
+namespace MB.Domain.ArticleCategoryAgg.Services
 {
     public interface IArticleCategoryValidatorService
     {

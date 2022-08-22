@@ -1,6 +1,6 @@
 using MB.Aplication.Contracts.ArticleCategory;
 using MB.Application;
-using MB.Domain.ArticleCategory;
+using MB.Domain.ArticleCategoryAgg;
 using MB.Infrastructure;
 using MB.Infrastructure.core;
 using MB.Infrastructure.Repositories;

@@ -1,4 +1,4 @@
-﻿using MB.Domain.ArticleCategory;
+﻿using MB.Domain.ArticleCategoryAgg;
 using System;
 using System.Collections.Generic;
 using System.Linq;

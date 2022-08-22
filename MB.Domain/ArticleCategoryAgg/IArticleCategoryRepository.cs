@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MB.Domain.ArticleCategory
+namespace MB.Domain.ArticleCategoryAgg
 {
     public interface IArticleCategoryRepository
     {

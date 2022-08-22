@@ -1,7 +1,7 @@
-﻿using MB.Domain.ArticleCategory.Exceptions;
+﻿using MB.Domain.ArticleCategoryAgg.Exceptions;
 using System;
 
-namespace MB.Domain.ArticleCategory.Services
+namespace MB.Domain.ArticleCategoryAgg.Services
 {
     public class ArticleCategoryValidatorService : IArticleCategoryValidatorService
     {

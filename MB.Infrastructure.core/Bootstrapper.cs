@@ -1,7 +1,7 @@
 ﻿using MB.Aplication.Contracts.ArticleCategory;
 using MB.Application;
-using MB.Domain.ArticleCategory;
-using MB.Domain.ArticleCategory.Services;
+using MB.Domain.ArticleCategoryAgg;
+using MB.Domain.ArticleCategoryAgg.Services;
 using MB.Infrastructure.Repositories;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;

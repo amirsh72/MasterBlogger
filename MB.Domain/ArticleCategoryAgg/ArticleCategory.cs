@@ -1,11 +1,11 @@
-﻿using MB.Domain.ArticleCategory.Services;
+﻿using MB.Domain.ArticleCategoryAgg.Services;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MB.Domain.ArticleCategory
+namespace MB.Domain.ArticleCategoryAgg
 {
     public class ArticleCategory
     {
