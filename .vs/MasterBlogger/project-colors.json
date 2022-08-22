@@ -45,6 +45,11 @@
       "ProjectGuid": "dc693b7d-4c17-4d3e-bff5-cb4b5ceceaf9",
       "DisplayName": "MB.Infrastructure.core",
       "ColorIndex": 8
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Miscellaneous Files",
+      "ColorIndex": -1
     }
   },
   "NextColorIndex": 9

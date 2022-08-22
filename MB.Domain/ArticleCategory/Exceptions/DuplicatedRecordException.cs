@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace MB.Domain.ArticleCategory.Exceptions
 {
-    internal class DuplicatedRecordException
+    public class DuplicatedRecordException : Exception
     {
+        public DuplicatedRecordException()
+        {
+
+        }
+        public DuplicatedRecordException(string message) : base(message)
+        {
+
+        }
     }
 }

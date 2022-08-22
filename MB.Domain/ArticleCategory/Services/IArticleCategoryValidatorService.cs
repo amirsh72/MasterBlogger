@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace MB.Domain.ArticleCategory.Services
 {
-    public interface IArticleCategoryValidatorSeevice
+    public interface IArticleCategoryValidatorService
     {
         void CheckThatThisRecordAlradyExists(string title);
     }

@@ -12,6 +12,7 @@ namespace MB.Domain.ArticleCategory
         List<ArticleCategory> GetAll();
         ArticleCategory Get(long id);
         void Add(ArticleCategory entity);
+        bool Exists(string title);
         void Save();
     }
 }
