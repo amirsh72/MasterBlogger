@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace MB.Domain.ArticleAgg
 {
-    internal class ArticleRepository
+    public interface IArticleRepository
     {
+
     }
 }

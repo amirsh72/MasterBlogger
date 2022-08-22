@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace MB.Aplication.Contracts.Article
 {
-    internal class IArticleApplication
+    public interface IArticleApplication
     {
     }
 }
