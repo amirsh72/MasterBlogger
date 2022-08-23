@@ -13,7 +13,7 @@ namespace MB.Infrastructure.Mapping
     {
         public void Configure(EntityTypeBuilder<Article> builder)
         {
-            builder.ToTable("Articeles");
+            builder.ToTable("Articles");
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Title);
             builder.Property(x => x.ShortDescription);

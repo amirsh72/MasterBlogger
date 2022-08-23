@@ -16,3 +16,5 @@ C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Infrastructure\obj\Debug\net5.0\MB
 C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Infrastructure\obj\Debug\net5.0\ref\MB.Infrastructure.dll
 C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Infrastructure\obj\Debug\net5.0\MB.Infrastructure.pdb
 C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Infrastructure\obj\Debug\net5.0\MB.Infrastructure.genruntimeconfig.cache
+C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Infrastructure\bin\Debug\net5.0\MB.Aplication.Contracts.dll
+C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Infrastructure\bin\Debug\net5.0\MB.Aplication.Contracts.pdb

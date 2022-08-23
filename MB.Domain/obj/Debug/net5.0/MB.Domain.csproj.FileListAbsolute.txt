@@ -10,3 +10,6 @@ C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.
 C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.dll
 C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Domain\obj\Debug\net5.0\ref\MB.Domain.dll
 C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.pdb
+C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Domain\bin\Debug\net5.0\MB.Aplication.Contracts.dll
+C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Domain\bin\Debug\net5.0\MB.Aplication.Contracts.pdb
+C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.csproj.CopyComplete
