@@ -1539,6 +1539,7 @@
         "dependencies": {
           "MB.Application": "1.0.0",
           "MB.Infrastructure": "1.0.0",
+          "MB.Infrastructure.Query": "1.0.0",
           "Microsoft.Extensions.DependencyInjection": "5.0.2"
         },
         "compile": {
@@ -1546,6 +1547,19 @@
         },
         "runtime": {
           "bin/placeholder/MB.Infrastructure.core.dll": {}
+        }
+      },
+      "MB.Infrastructure.Query/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "MB.Infrastructure": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/MB.Infrastructure.Query.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/MB.Infrastructure.Query.dll": {}
         }
       }
     }
@@ -5784,6 +5798,11 @@
       "type": "project",
       "path": "../MB.Infrastructure.core/MB.Infrastructure.core.csproj",
       "msbuildProject": "../MB.Infrastructure.core/MB.Infrastructure.core.csproj"
+    },
+    "MB.Infrastructure.Query/1.0.0": {
+      "type": "project",
+      "path": "../MB.Infrastructure.Query/MB.Infrastructure.Query.csproj",
+      "msbuildProject": "../MB.Infrastructure.Query/MB.Infrastructure.Query.csproj"
     }
   },
   "projectFileDependencyGroups": {
