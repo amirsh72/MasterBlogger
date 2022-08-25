@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace MB.Application
 {
-    internal class CommentApplication
+    public class CommentApplication
     {
+
     }
 }

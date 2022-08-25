@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace MB.Aplication.Contracts.Comment
 {
-    internal interface ICommentApplication
+    public interface ICommentApplication
     {
+
     }
 }

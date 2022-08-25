@@ -12,18 +12,29 @@ namespace MB.Domain.CommentAgg
         public long Id { get; private set; }
         public string Name { get; private set; }
         public string Email { get; private set; }
-        public string message { get; private set; }
-        public int status { get; private set; }
+        public string Message { get; private set; }
+        public int Status { get; private set; }
         public DateTime CreationDate { get; private set; }
         public long ArticleId { get; private set; }
         public Article article { get; private set; }
+        protected Comment()
+        {
+
+        }
 
         public Comment(string name, string email, string message, long articleId)
         {
             Name = name;
             Email = email;
-            this.message = message;
+            this.Message = message;
             ArticleId = articleId;
+            CreationDate = DateTime.Now;
+            Status=Statuses.New;
         }
+        public void Confrim()
+        {
+            Status=1;
+        }
+
     }
 }
