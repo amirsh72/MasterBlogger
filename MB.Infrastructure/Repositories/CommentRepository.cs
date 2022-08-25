@@ -15,5 +15,11 @@ namespace MB.Infrastructure.Repositories
         {
             _context = context;
         }
+
+        public void CreateAndSave(Comment Entity)
+        {
+           _context.comments.Add(Entity);
+            _context.SaveChanges();
+        }
     }
 }

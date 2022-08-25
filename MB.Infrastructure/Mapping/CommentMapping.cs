@@ -13,7 +13,7 @@ namespace MB.Infrastructure.Mapping
     {
         public void Configure(EntityTypeBuilder<Comment> builder)
         {
-            builder.ToTable("Comment");
+            builder.ToTable("Comments");
             builder.HasKey(x => x.Id);
             builder.Property(x => x.Name);
             builder.Property(x => x.Email);

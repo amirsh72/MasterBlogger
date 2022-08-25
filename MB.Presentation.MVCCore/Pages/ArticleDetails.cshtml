@@ -33,15 +33,15 @@
                     <p>
                         @Model.Article.ShortDescription
                     </p>
-                    @*@Model.Article.Content*@
+                    Model.Article.Content
                 </div>
 
 
                 <div class="post-comments">
                     <header>
-                      @*  <h3 class="h6">Post Comments<span class="no-of-comments">(@Model.Article.CommentsCount)</span></h3>*@
+                     @*<h3 class="h6">Post Comments<span class="no-of-comments">(@Model.Article.CommentsCount)</span></h3>*@
                     </header>
-                 @*   @foreach (var comment in Model.Article.Comments)
+                   @*@foreach (var comment in Model.Article.Comments)
                     {
                         <div class="comment">
                             <div class="comment-header d-flex justify-content-between">
@@ -55,7 +55,7 @@
                                 </div>
                             </div>
                             <div class="comment-body">
-                               @* <p>@comment.Message</p>
+                                <p>@comment.Message</p>
                             </div>
                         </div>
                     }*@
