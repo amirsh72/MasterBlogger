@@ -22,6 +22,7 @@ namespace MB.Infrastructure.Mapping
             builder.Property(x => x.Image);
             builder.Property(x => x.IsDeleted);
             builder.HasOne(x=>x.ArticleCategory).WithMany(x=>x.articles).HasForeignKey(x=>x.ArticleCategoryId);
+            builder.HasMany(x=>x.comments).WithOne(x=>x.article).HasForeignKey(x=>x.ArticleId);
         }
     }
 }
