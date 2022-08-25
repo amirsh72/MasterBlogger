@@ -1,4 +1,6 @@
-﻿using MB.Domain.CommentAgg;
+﻿using MB.Aplication.Contracts.Comment;
+using MB.Domain.CommentAgg;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -20,6 +22,20 @@ namespace MB.Infrastructure.Repositories
         {
            _context.comments.Add(Entity);
             _context.SaveChanges();
+        }
+
+        public List<CommentViewModel> GetList()
+        {
+           return _context.comments.Include(x=>x.article).Select(x=>new CommentViewModel
+           {
+              Id = x.Id,
+              Name = x.Name,
+              Email = x.Email,
+              Message = x.Message,
+              CreationDate = x.CreationDate.ToString(),
+              Status = x.Status,
+              Article=x.article.Title,
+           }).ToList();
         }
     }
 }
