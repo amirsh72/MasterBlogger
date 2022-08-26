@@ -10,5 +10,7 @@ namespace MB.Aplication.Contracts.Comment
     {
         List<CommentViewModel> GetList();
         void Add(AddComment comment);
+        void Confirm(long id);
+        void Cancel(long id);
     }
 }

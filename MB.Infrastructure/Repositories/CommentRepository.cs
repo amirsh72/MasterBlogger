@@ -21,8 +21,10 @@ namespace MB.Infrastructure.Repositories
         public void CreateAndSave(Comment Entity)
         {
            _context.comments.Add(Entity);
-            _context.SaveChanges();
+            Save();
         }
+
+       
 
         public List<CommentViewModel> GetList()
         {
@@ -36,6 +38,14 @@ namespace MB.Infrastructure.Repositories
               Status = x.Status,
               Article=x.article.Title,
            }).ToList();
+        }
+        public Comment Get(long id)
+        {
+          return _context.comments.FirstOrDefault(x=>x.Id == id);
+        }
+        public void Save()
+        {
+            _context.SaveChanges();
         }
     }
 }
