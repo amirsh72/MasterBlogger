@@ -14,5 +14,8 @@ namespace MB.Infrastructure.Query
         public string Articlecategory { get; set; }
         public string CreationDate { get; set; }
         public string Image { get; set; }
+        public string Content { get; set; }
+        public long CommentCount { get; set; }
+        public List<CommentQueryView> comments { get; set; }
     }
 }
