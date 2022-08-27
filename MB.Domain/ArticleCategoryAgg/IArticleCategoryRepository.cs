@@ -1,4 +1,5 @@
 ﻿
+using _01_Framework.Infrastructure;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,12 +8,8 @@ using System.Threading.Tasks;
 
 namespace MB.Domain.ArticleCategoryAgg
 {
-    public interface IArticleCategoryRepository
+    public interface IArticleCategoryRepository:IRepository<long,ArticleCategory>
     {
-        List<ArticleCategory> GetAll();
-        ArticleCategory Get(long id);
-        void Add(ArticleCategory entity);
-        bool Exists(string title);
-        void Save();
+       
     }
 }

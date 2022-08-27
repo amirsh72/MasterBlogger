@@ -25,7 +25,7 @@ namespace MB.Application
         public void Create(CreateArticleCategory command)
         {
             var articlecategory = new ArticleCategory(command.Title,_articleCategoryValidatorService);
-            _articleCategoryRepository.Add(articlecategory);
+            _articleCategoryRepository.Create(articlecategory);
         }
 
         public RenameArticleCategory Get(long id)
@@ -41,30 +41,25 @@ namespace MB.Application
         public List<ArticleCategoryViewModel> List()
         {
             var articleCategories = _articleCategoryRepository.GetAll();
-            var result = new List<ArticleCategoryViewModel>();
-            foreach (var articleCategory in articleCategories)
+            return (articleCategories.Select(articleCategory => new ArticleCategoryViewModel
             {
-                result.Add(new ArticleCategoryViewModel
-                {
-                    Id = articleCategory.Id,
-                    Title = articleCategory.Title,
-                    CreationDate = articleCategory.CreationDate.ToString(),
-                    IsDeleted = articleCategory.IsDeleted,
-                });
-            }
-            return result;
+                Id = articleCategory.Id,
+                Title = articleCategory.Title,
+                CreationDate = articleCategory.CreationDate.ToString(),
+                IsDeleted = articleCategory.IsDeleted,
+            })).OrderByDescending(x=>x.Id).ToList();
         }
         public void Activate(long id)
         {
             var articlecategory = _articleCategoryRepository.Get(id);
             articlecategory.Activate();
-            _articleCategoryRepository.Save();
+            //_articleCategoryRepository.Save();
         }
         public void Remove(long id)
         {
             var articlecategory = _articleCategoryRepository.Get(id);
             articlecategory.Remove();
-            _articleCategoryRepository.Save();
+            //_articleCategoryRepository.Save();
         }
 
         public void Rename(RenameArticleCategory command)
@@ -75,7 +70,7 @@ namespace MB.Application
         }
         public void Save()
         {
-            _articleCategoryRepository.Save();
+            //_articleCategoryRepository.Save();
         }
 
     }

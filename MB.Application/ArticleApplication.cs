@@ -23,7 +23,7 @@ namespace MB.Application
         {
             var article = new Article(command.Title, command.ShortDescription, command.Image,
                 command.Content, command.ArticleCategoryId);
-            _articleRepository.CreateAndSave(article);
+            _articleRepository.Create(article);
         }
 
         public void Edit(EditArticle command)

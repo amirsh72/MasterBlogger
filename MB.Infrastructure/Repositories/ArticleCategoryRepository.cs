@@ -1,4 +1,6 @@
-﻿using MB.Domain.ArticleCategoryAgg;
+﻿
+using _01_Framework.Infrastructure;
+using MB.Domain.ArticleCategoryAgg;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,39 +9,15 @@ using System.Threading.Tasks;
 
 namespace MB.Infrastructure.Repositories
 {
-    public class ArticleCategoryRepository : IArticleCategoryRepository
+    public class ArticleCategoryRepository :BaseRepository<long,ArticleCategory> ,IArticleCategoryRepository
     {
         private readonly MasterBloggerContext _context;
 
-        public ArticleCategoryRepository(MasterBloggerContext context)
+        public ArticleCategoryRepository(MasterBloggerContext context):base(context)
         {
             _context = context;
         }
 
-        public void Add(ArticleCategory entity)
-        {
-            _context.articleCategories.Add(entity);
-            _context.SaveChanges();
-        }
-
-        public bool Exists(string title)
-        {
-            return _context.articleCategories.Any(x=>x.Title == title);
-        }
-
-        public ArticleCategory Get(long id)
-        {
-            return _context.articleCategories.FirstOrDefault(x => x.Id == id);
-        }
-
-        public List<ArticleCategory> GetAll()
-        {
-           return _context.articleCategories.OrderByDescending(x=>x.Id).ToList();
-        }
-
-        public void Save()
-        {
-            _context.SaveChanges();
-        }
+       
     }
 }

@@ -7,7 +7,7 @@ namespace MB.Domain.ArticleAgg.Services
         private readonly IArticleRepository _articleRepository;
         public void CheckThatThisRecordAlradyExists(string title)
         {
-            if (_articleRepository.Exists(title))
+            if (_articleRepository.Exists(x=>x.Title==title))
                 throw new DuplicatedRecordException();
         }
     }
