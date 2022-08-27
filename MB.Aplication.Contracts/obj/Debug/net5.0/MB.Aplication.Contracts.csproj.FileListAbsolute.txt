@@ -2,7 +2,6 @@ C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Aplication.Contracts\bin\Debug\net
 C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Aplication.Contracts\bin\Debug\net5.0\MB.Aplication.Contracts.dll
 C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Aplication.Contracts\bin\Debug\net5.0\ref\MB.Aplication.Contracts.dll
 C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Aplication.Contracts\bin\Debug\net5.0\MB.Aplication.Contracts.pdb
-C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Aplication.Contracts\obj\Debug\net5.0\MB.Aplication.Contracts.csproj.AssemblyReference.cache
 C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Aplication.Contracts\obj\Debug\net5.0\MB.Aplication.Contracts.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Aplication.Contracts\obj\Debug\net5.0\MB.Aplication.Contracts.AssemblyInfoInputs.cache
 C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Aplication.Contracts\obj\Debug\net5.0\MB.Aplication.Contracts.AssemblyInfo.cs
@@ -10,3 +9,4 @@ C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Aplication.Contracts\obj\Debug\net
 C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Aplication.Contracts\obj\Debug\net5.0\MB.Aplication.Contracts.dll
 C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Aplication.Contracts\obj\Debug\net5.0\ref\MB.Aplication.Contracts.dll
 C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Aplication.Contracts\obj\Debug\net5.0\MB.Aplication.Contracts.pdb
+C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Aplication.Contracts\obj\Debug\net5.0\MB.Aplication.Contracts.csproj.AssemblyReference.cache

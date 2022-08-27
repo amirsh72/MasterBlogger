@@ -21,3 +21,5 @@ C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Infrastructure.core\obj\Debug\net5
 C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Infrastructure.core\obj\Debug\net5.0\MB.Infrastructure.core.pdb
 C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Infrastructure.core\bin\Debug\net5.0\MB.Infrastructure.Query.dll
 C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Infrastructure.core\bin\Debug\net5.0\MB.Infrastructure.Query.pdb
+C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Infrastructure.core\bin\Debug\net5.0\01_Framework.dll
+C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Infrastructure.core\bin\Debug\net5.0\01_Framework.pdb

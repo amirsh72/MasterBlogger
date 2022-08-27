@@ -1,4 +1,5 @@
-﻿using MB.Aplication.Contracts.ArticleCategory;
+﻿using _01_Framework.Infrastructure;
+using MB.Aplication.Contracts.ArticleCategory;
 using MB.Domain.ArticleCategoryAgg;
 using MB.Domain.ArticleCategoryAgg.Services;
 using System;
@@ -14,18 +15,21 @@ namespace MB.Application
     {
         private readonly IArticleCategoryRepository _articleCategoryRepository;
         private readonly IArticleCategoryValidatorService _articleCategoryValidatorService;
-        
+        private readonly IUnitOfWork _unitOfWork;
 
-        public ArticleCategoryApplication(IArticleCategoryRepository articleCategoryRepository, IArticleCategoryValidatorService articleCategoryValidatorService)
+        public ArticleCategoryApplication(IArticleCategoryRepository articleCategoryRepository, IArticleCategoryValidatorService articleCategoryValidatorService, IUnitOfWork unitOfWork)
         {
             _articleCategoryRepository = articleCategoryRepository;
             _articleCategoryValidatorService = articleCategoryValidatorService;
+            _unitOfWork = unitOfWork;
         }
 
         public void Create(CreateArticleCategory command)
         {
+            _unitOfWork.BeginTran();
             var articlecategory = new ArticleCategory(command.Title,_articleCategoryValidatorService);
             _articleCategoryRepository.Create(articlecategory);
+            _unitOfWork.CommitTran();
         }
 
         public RenameArticleCategory Get(long id)
@@ -51,22 +55,26 @@ namespace MB.Application
         }
         public void Activate(long id)
         {
+            _unitOfWork.BeginTran();
             var articlecategory = _articleCategoryRepository.Get(id);
             articlecategory.Activate();
-            //_articleCategoryRepository.Save();
+            _unitOfWork.CommitTran();
+           
         }
         public void Remove(long id)
         {
+            _unitOfWork.BeginTran();
             var articlecategory = _articleCategoryRepository.Get(id);
             articlecategory.Remove();
-            //_articleCategoryRepository.Save();
+            _unitOfWork.CommitTran();
         }
 
         public void Rename(RenameArticleCategory command)
         {
+            _unitOfWork.BeginTran();
             var articlecategory = _articleCategoryRepository.Get(command.Id);
             articlecategory.Rename(command.Title);
-            Save();
+            _unitOfWork.CommitTran();
         }
         public void Save()
         {

@@ -13,3 +13,5 @@ C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.
 C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Domain\bin\Debug\net5.0\MB.Aplication.Contracts.dll
 C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Domain\bin\Debug\net5.0\MB.Aplication.Contracts.pdb
 C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Domain\obj\Debug\net5.0\MB.Domain.csproj.CopyComplete
+C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Domain\bin\Debug\net5.0\01_Framework.dll
+C:\Users\amir\Desktop\Atriya\MasterBlogger\MB.Domain\bin\Debug\net5.0\01_Framework.pdb
